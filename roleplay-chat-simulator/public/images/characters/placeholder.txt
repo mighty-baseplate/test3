@@ -1,0 +1,72 @@
+# Character Images Placeholder
+
+This directory should contain character images for all emotional states:
+
+## Required Images (6 characters × 6 emotions = 36 images)
+
+### Gandalf the Grey
+- gandalf-neutral.png
+- gandalf-happy.png
+- gandalf-thinking.png
+- gandalf-sad.png
+- gandalf-waving.png
+- gandalf-surprised.png
+
+### Sherlock Holmes
+- sherlock-neutral.png
+- sherlock-happy.png
+- sherlock-thinking.png
+- sherlock-sad.png
+- sherlock-waving.png
+- sherlock-surprised.png
+
+### AI-7 Robot
+- robot-neutral.png
+- robot-happy.png
+- robot-thinking.png
+- robot-sad.png
+- robot-waving.png
+- robot-surprised.png
+
+### Sir Galahad (Knight)
+- knight-neutral.png
+- knight-happy.png
+- knight-thinking.png
+- knight-sad.png
+- knight-waving.png
+- knight-surprised.png
+
+### Zyx the Cosmic DJ (Alien)
+- alien-neutral.png
+- alien-happy.png
+- alien-thinking.png
+- alien-sad.png
+- alien-waving.png
+- alien-surprised.png
+
+### Luna Starweaver (Sorceress)
+- sorceress-neutral.png
+- sorceress-happy.png
+- sorceress-thinking.png
+- sorceress-sad.png
+- sorceress-waving.png
+- sorceress-surprised.png
+
+## Image Requirements
+- Size: 512x512 pixels recommended
+- Format: PNG with transparency
+- Style: Consistent artistic style across all characters
+- Background: Transparent or matching theme colors
+
+## AI Image Generation Tools
+You can generate these images using:
+- midjourney.com
+- dall-e (openai.com)
+- stable-diffusion
+- leonardo.ai
+- artbreeder.com
+
+## Example Prompts
+"Portrait of Gandalf the Grey wizard, happy expression, fantasy art style, transparent background"
+"Sherlock Holmes detective, thinking pose, Victorian era, professional portrait"
+"Futuristic AI robot, neutral expression, sci-fi digital art"

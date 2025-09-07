@@ -1,0 +1,33 @@
+# Sound Files Placeholder
+
+This directory should contain the following sound files for the roleplay chat simulator:
+
+## Core Sound Effects
+- notification-ting.mp3 - Main notification sound
+- typewriter-robotic.mp3 - Default typing sound
+- message-send.mp3 - Message sent confirmation
+
+## Character-Specific Typewriter Sounds
+- typewriter-mystical.mp3 - Gandalf's typing sound
+- typewriter-classic.mp3 - Sherlock's typing sound
+- typewriter-medieval.mp3 - Knight's typing sound
+- typewriter-cosmic.mp3 - Alien DJ's typing sound
+- typewriter-magical.mp3 - Sorceress's typing sound
+
+## Character-Specific Notification Sounds
+- bell-magical.mp3 - Gandalf's notification
+- bell-victorian.mp3 - Sherlock's notification
+- beep-digital.mp3 - Robot's notification
+- bell-castle.mp3 - Knight's notification
+- beep-alien.mp3 - Alien DJ's notification
+- chime-ethereal.mp3 - Sorceress's notification
+
+For development, you can use free sound effects from:
+- freesound.org
+- zapsplat.com
+- pixabay.com/sound-effects/
+
+Or generate them using AI tools like:
+- elevenlabs.io (sound effects)
+- mubert.com
+- soundraw.io

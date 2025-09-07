@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts for character themes */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Orbitron:wght@400;700&family=Crimson+Text:wght@400;600&display=swap');
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-blue-50 font-sans antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* Custom component styles for roleplay chat */
+  .chat-bubble {
+    @apply rounded-2xl px-4 py-2 max-w-xs shadow-md;
+  }
+  
+  .chat-bubble-user {
+    @apply bg-blue-500 text-white ml-auto;
+  }
+  
+  .chat-bubble-ai {
+    @apply bg-white text-gray-800 mr-auto border;
+  }
+  
+  .character-card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105;
+  }
+  
+  .typing-indicator {
+    @apply flex space-x-1;
+  }
+  
+  .typing-dot {
+    @apply w-2 h-2 bg-gray-400 rounded-full animate-pulse;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Character-specific gradients */
+  .bg-gandalf {
+    @apply bg-gradient-to-br from-amber-50 to-yellow-100;
+  }
+  
+  .bg-sherlock {
+    @apply bg-gradient-to-br from-blue-50 to-indigo-100;
+  }
+  
+  .bg-robot {
+    @apply bg-gradient-to-br from-green-50 to-emerald-100;
+  }
+  
+  .bg-knight {
+    @apply bg-gradient-to-br from-gray-50 to-slate-100;
+  }
+  
+  .bg-alien {
+    @apply bg-gradient-to-br from-purple-50 to-violet-100;
+  }
+  
+  .bg-sorceress {
+    @apply bg-gradient-to-br from-pink-50 to-rose-100;
+  }
+}
